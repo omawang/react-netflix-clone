@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders the <Card /> and toggles the card feature 1`] = `
+<div
+  class="card__Group-sc-11y44z9-2 tanHN"
+>
+  <div
+    class="card__Container-sc-11y44z9-1 dCcCtS"
+  >
+    <p
+      class="card__Title-sc-11y44z9-0 kjskVN"
+    >
+      Documentaries
+    </p>
+    <div
+      class="card__Entities-sc-11y44z9-3 kygyag"
+    >
+      <div
+        class="card__Item-sc-11y44z9-7 lbtzkX"
+        data-testid="tiger-king-item-feature"
+      >
+        <img
+          class="card__Image-sc-11y44z9-8 dZirdd"
+          src="/images/films/documentaries/tiger-king/small.jpg"
+        />
+        <div
+          class="card__Meta-sc-11y44z9-4 hKYdNM"
+        >
+          <p
+            class="card__SubTitle-sc-11y44z9-5 gGBOEJ"
+          >
+            Tiger King
+          </p>
+          <p
+            class="card__Text-sc-11y44z9-6 bptwhU"
+          >
+            Tiger King descriptions
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="card__Container-sc-11y44z9-1 dCcCtS"
+  >
+    <p
+      class="card__Title-sc-11y44z9-0 kjskVN"
+    >
+      Comedies
+    </p>
+    <div
+      class="card__Entities-sc-11y44z9-3 kygyag"
+    >
+      <div
+        class="card__Item-sc-11y44z9-7 lbtzkX"
+        data-testid="the-office-item-feature"
+      >
+        <img
+          class="card__Image-sc-11y44z9-8 dZirdd"
+          src="/images/films/comedies/the-office/small.jpg"
+        />
+        <div
+          class="card__Meta-sc-11y44z9-4 hKYdNM"
+        >
+          <p
+            class="card__SubTitle-sc-11y44z9-5 gGBOEJ"
+          >
+            The Office
+          </p>
+          <p
+            class="card__Text-sc-11y44z9-6 bptwhU"
+          >
+            The Office descriptions
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> renders the <Card /> with populated data 1`] = `
+<div
+  class="card__Group-sc-11y44z9-2 tanHN"
+>
+  <div
+    class="card__Container-sc-11y44z9-1 dCcCtS"
+  >
+    <p
+      class="card__Title-sc-11y44z9-0 kjskVN"
+    >
+      Documentaries
+    </p>
+    <div
+      class="card__Entities-sc-11y44z9-3 kygyag"
+    >
+      <div
+        class="card__Item-sc-11y44z9-7 lbtzkX"
+      >
+        <img
+          class="card__Image-sc-11y44z9-8 dZirdd"
+          src="/images/films/documentaries/tiger-king/small.jpg"
+        />
+        <div
+          class="card__Meta-sc-11y44z9-4 hKYdNM"
+        >
+          <p
+            class="card__SubTitle-sc-11y44z9-5 gGBOEJ"
+          >
+            Tiger King
+          </p>
+          <p
+            class="card__Text-sc-11y44z9-6 bptwhU"
+          >
+            Tiger King descriptions
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="card__Container-sc-11y44z9-1 dCcCtS"
+  >
+    <p
+      class="card__Title-sc-11y44z9-0 kjskVN"
+    >
+      Comedies
+    </p>
+    <div
+      class="card__Entities-sc-11y44z9-3 kygyag"
+    >
+      <div
+        class="card__Item-sc-11y44z9-7 lbtzkX"
+      >
+        <img
+          class="card__Image-sc-11y44z9-8 dZirdd"
+          src="/images/films/comedies/the-office/small.jpg"
+        />
+        <div
+          class="card__Meta-sc-11y44z9-4 hKYdNM"
+        >
+          <p
+            class="card__SubTitle-sc-11y44z9-5 gGBOEJ"
+          >
+            The Office
+          </p>
+          <p
+            class="card__Text-sc-11y44z9-6 bptwhU"
+          >
+            The Office descriptions
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

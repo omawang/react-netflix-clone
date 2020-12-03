@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signup page render Signup page 1`] = `
+<div
+  class="header__Background-sc-1v45rsj-0 gvksrW"
+>
+  <div
+    class="header__Container-sc-1v45rsj-1 eSeMKt"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="Netflix"
+        class="header__Logo-sc-1v45rsj-6 kbpjKE"
+        data-testid="header-bg"
+        src="logo.svg"
+      />
+    </a>
+    <a
+      class="header__ButtonLink-sc-1v45rsj-7 jNQYQi"
+      href="/signin"
+    >
+      Sign In
+    </a>
+  </div>
+  <div
+    class="form__Container-sc-1ap38re-0 dplSrE"
+  >
+    <h1
+      class="form__Title-sc-1ap38re-1 gksWve"
+    >
+      Sign Up
+    </h1>
+    
+    <form
+      class="form__Base-sc-1ap38re-3 fYWkjo"
+      method="POST"
+    >
+      <input
+        class="form__Input-sc-1ap38re-7 muXbO"
+        placeholder="Name"
+        value="Awank"
+      />
+      <input
+        class="form__Input-sc-1ap38re-7 muXbO"
+        placeholder="Email address"
+        value="awank@app.com"
+      />
+      <input
+        autocomplete="off"
+        class="form__Input-sc-1ap38re-7 muXbO"
+        placeholder="Password"
+        type="password"
+        value="secret"
+      />
+      <button
+        class="form__Submit-sc-1ap38re-8 koHILv"
+        data-testid="signup-submit"
+        type="submit"
+      >
+        Sign Up
+      </button>
+    </form>
+    <p
+      class="form__Text-sc-1ap38re-4 gvpEcr"
+    >
+      Already a user?
+       
+      <a
+        class="form__Link-sc-1ap38re-6 kyLsmz"
+        href="/signin"
+      >
+        Sign in now.
+      </a>
+    </p>
+    <p
+      class="form__TextSmall-sc-1ap38re-5 cSdqcd"
+    >
+      This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Signup page render Signup page failed submit 1`] = `
+<div
+  class="header__Background-sc-1v45rsj-0 gvksrW"
+>
+  <div
+    class="header__Container-sc-1v45rsj-1 eSeMKt"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="Netflix"
+        class="header__Logo-sc-1v45rsj-6 kbpjKE"
+        data-testid="header-bg"
+        src="logo.svg"
+      />
+    </a>
+    <a
+      class="header__ButtonLink-sc-1v45rsj-7 jNQYQi"
+      href="/signin"
+    >
+      Sign In
+    </a>
+  </div>
+  <div
+    class="form__Container-sc-1ap38re-0 dplSrE"
+  >
+    <h1
+      class="form__Title-sc-1ap38re-1 gksWve"
+    >
+      Sign Up
+    </h1>
+    <div
+      class="form__Error-sc-1ap38re-2 igbMtA"
+      data-test-id="error"
+    >
+      error!
+    </div>
+    <form
+      class="form__Base-sc-1ap38re-3 fYWkjo"
+      method="POST"
+    >
+      <input
+        class="form__Input-sc-1ap38re-7 muXbO"
+        placeholder="Name"
+        value=""
+      />
+      <input
+        class="form__Input-sc-1ap38re-7 muXbO"
+        placeholder="Email address"
+        value=""
+      />
+      <input
+        autocomplete="off"
+        class="form__Input-sc-1ap38re-7 muXbO"
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+      <button
+        class="form__Submit-sc-1ap38re-8 koHILv"
+        data-testid="signup-submit"
+        disabled=""
+        type="submit"
+      >
+        Sign Up
+      </button>
+    </form>
+    <p
+      class="form__Text-sc-1ap38re-4 gvpEcr"
+    >
+      Already a user?
+       
+      <a
+        class="form__Link-sc-1ap38re-6 kyLsmz"
+        href="/signin"
+      >
+        Sign in now.
+      </a>
+    </p>
+    <p
+      class="form__TextSmall-sc-1ap38re-5 cSdqcd"
+    >
+      This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+    </p>
+  </div>
+</div>
+`;

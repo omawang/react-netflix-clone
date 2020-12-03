@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage render Home page 1`] = `
+<div
+  class="header__Background-sc-1v45rsj-0 gvksrW"
+>
+  <div
+    class="header__Container-sc-1v45rsj-1 eSeMKt"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="Netflix"
+        class="header__Logo-sc-1v45rsj-6 kbpjKE"
+        data-testid="header-bg"
+        src="logo.svg"
+      />
+    </a>
+    <a
+      class="header__ButtonLink-sc-1v45rsj-7 jNQYQi"
+      href="/signin"
+    >
+      Sign In
+    </a>
+  </div>
+  <div
+    class="feature__Container-sc-17lpqa4-0 hDwihu"
+  >
+    <h1
+      class="feature__Title-sc-17lpqa4-1 eLQpaR"
+    >
+      Unlimited films, TV programmes and more.
+    </h1>
+    <h2
+      class="feature__SubTitle-sc-17lpqa4-2 gEmVAy"
+    >
+      Watch anywhere. Cancel at any time.
+    </h2>
+    <div
+      class="opt-form__Container-z45k4t-0 kLhZhH"
+    >
+      <input
+        class="opt-form__Input-z45k4t-1 kskwzu"
+        placeholder="Email address"
+      />
+      <button
+        class="opt-form__Button-z45k4t-2 iOtied"
+      >
+        Try it now
+         
+        <img
+          alt="Try now"
+          src="/images/icons/chevron-right.png"
+        />
+      </button>
+      <div
+        class="opt-form__Break-z45k4t-4 fVIGjV"
+      />
+      <p
+        class="opt-form__Text-z45k4t-3 bqXIIx"
+      >
+        Ready to watch? Enter your email to create or restart your membership.
+      </p>
+    </div>
+  </div>
+</div>
+`;

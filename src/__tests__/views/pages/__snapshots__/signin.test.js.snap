@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signin page render Signin page 1`] = `
+<div
+  class="header__Background-sc-1v45rsj-0 gvksrW"
+>
+  <div
+    class="header__Container-sc-1v45rsj-1 eSeMKt"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="Netflix"
+        class="header__Logo-sc-1v45rsj-6 kbpjKE"
+        data-testid="header-bg"
+        src="logo.svg"
+      />
+    </a>
+    <a
+      class="header__ButtonLink-sc-1v45rsj-7 jNQYQi"
+      href="/signin"
+    >
+      Sign In
+    </a>
+  </div>
+  <div
+    class="form__Container-sc-1ap38re-0 dplSrE"
+  >
+    <h1
+      class="form__Title-sc-1ap38re-1 gksWve"
+    >
+      Sign In Now
+    </h1>
+    <div
+      class="form__Error-sc-1ap38re-2 igbMtA"
+      data-testid="error"
+    >
+      history.push is not a function
+    </div>
+    <form
+      class="form__Base-sc-1ap38re-3 fYWkjo"
+      method="POST"
+    >
+      <input
+        class="form__Input-sc-1ap38re-7 muXbO"
+        placeholder="Email address"
+        value=""
+      />
+      <input
+        autocomplete="off"
+        class="form__Input-sc-1ap38re-7 muXbO"
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+      <button
+        class="form__Submit-sc-1ap38re-8 koHILv"
+        data-testid="signin-submit"
+        disabled=""
+        type="submit"
+      >
+        Sign In
+      </button>
+    </form>
+    <p
+      class="form__Text-sc-1ap38re-4 gvpEcr"
+    >
+      New to Netflix?
+       
+      <a
+        class="form__Link-sc-1ap38re-6 kyLsmz"
+        href="/signup"
+      >
+        Sign up now.
+      </a>
+    </p>
+    <p
+      class="form__TextSmall-sc-1ap38re-5 cSdqcd"
+    >
+      This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+    </p>
+  </div>
+</div>
+`;

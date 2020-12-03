@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders the basic <Header /> with a background 1`] = `
+<div
+  class="header__Background-sc-1v45rsj-0 gvksrW"
+>
+  <div
+    class="header__Container-sc-1v45rsj-1 eSeMKt"
+  >
+    <p
+      class="header__TextLink-sc-1v45rsj-8 eYNEbi"
+    >
+      Hello I am a link!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders the basic <Header /> without a background 1`] = `
+<div
+  class="header__Container-sc-1v45rsj-1 eSeMKt"
+>
+  <p
+    class="header__TextLink-sc-1v45rsj-8 haTTnK"
+  >
+    Hello I am a link!
+  </p>
+</div>
+`;
+
+exports[`<Header /> renders the full <Header> with a background 1`] = `
+<div
+  class="header__Background-sc-1v45rsj-0 hzAoOo"
+  src="joker1"
+>
+  <div
+    class="header__Container-sc-1v45rsj-1 eSeMKt"
+  >
+    <div
+      class="header__Group-sc-1v45rsj-2 ilJXWr"
+    >
+      <p
+        class="header__TextLink-sc-1v45rsj-8 haTTnK"
+      >
+        Series
+      </p>
+      <p
+        class="header__TextLink-sc-1v45rsj-8 eYNEbi"
+      >
+        Films
+      </p>
+    </div>
+    <div
+      class="header__Group-sc-1v45rsj-2 ilJXWr"
+    >
+      <div
+        class="header__Search-sc-1v45rsj-3 fhXgQo"
+      >
+        <button
+          class="header__SearchIcon-sc-1v45rsj-4 iDPjJw"
+          data-testid="search-click"
+        >
+          <img
+            alt="Search"
+            src="/images/icons/search.png"
+          />
+        </button>
+        <input
+          class="header__SearchInput-sc-1v45rsj-5 lfZKjk"
+          data-testid="search-input"
+          placeholder="Search films and series"
+          value="Joker"
+        />
+      </div>
+      <div
+        class="header__Profile-sc-1v45rsj-11 bFNVcE"
+      >
+        <button
+          class="header__Picture-sc-1v45rsj-9 leMBuL"
+          src="/images/users//images/karl.png.png"
+        />
+        <div
+          class="header__Dropdown-sc-1v45rsj-10 fCHItx"
+        >
+          <div
+            class="header__Group-sc-1v45rsj-2 ilJXWr"
+          >
+            <button
+              class="header__Picture-sc-1v45rsj-9 lkazud"
+              src="/images/users//images/awank.png.png"
+            />
+            <p
+              class="header__TextLink-sc-1v45rsj-8 haTTnK"
+            >
+              Awank
+            </p>
+          </div>
+          <div
+            class="header__Group-sc-1v45rsj-2 ilJXWr"
+          >
+            <p
+              class="header__TextLink-sc-1v45rsj-8 haTTnK"
+            >
+              Sign out
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="header__Container-sc-1v45rsj-1 header__Feature-sc-1v45rsj-12 eSeMKt rPePd"
+  >
+    <p
+      class="header__FeatureCallOut-sc-1v45rsj-13 bMmPQr"
+    >
+      Watch Joker Now
+    </p>
+    <p
+      class="header__Text-sc-1v45rsj-14 gjWqWd"
+    >
+      Forever alone in a crowd...
+    </p>
+    <button
+      class="header__PlayButton-sc-1v45rsj-15 cFCBPz"
+    >
+      Play
+    </button>
+  </div>
+</div>
+`;

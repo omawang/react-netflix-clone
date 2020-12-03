@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profile /> renders the <Profile /> component with populated data 1`] = `
+<div
+  class="profiles__Container-sc-1vyeoaa-0 iubkFI"
+>
+  <h1
+    class="profiles__Title-sc-1vyeoaa-1 kUZFjK"
+  >
+    Who's watching
+  </h1>
+  <ul
+    class="profiles__List-sc-1vyeoaa-2 kCkOsT"
+  >
+    <li
+      class="profiles__Item-sc-1vyeoaa-5 ffNRPb"
+    >
+      <img
+        class="profiles__Picture-sc-1vyeoaa-3 egjAz"
+        data-testid="profile-picture"
+        src="/images/users//images/awank.png.png"
+      />
+      <p
+        class="profiles__Name-sc-1vyeoaa-4 RwBgQ"
+      >
+        Awank
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Profile /> renders the <Profile /> component with populated data but misc profile image 1`] = `
+<div
+  class="profiles__Container-sc-1vyeoaa-0 iubkFI"
+>
+  <h1
+    class="profiles__Title-sc-1vyeoaa-1 kUZFjK"
+  >
+    Who's watching
+  </h1>
+  <ul
+    class="profiles__List-sc-1vyeoaa-2 kCkOsT"
+  >
+    <li
+      class="profiles__Item-sc-1vyeoaa-5 ffNRPb"
+    >
+      <img
+        class="profiles__Picture-sc-1vyeoaa-3 egjAz"
+        data-testid="profile-picture-misc"
+        src="/images/misc/loading.gif"
+      />
+      <p
+        class="profiles__Name-sc-1vyeoaa-4 RwBgQ"
+      >
+        Awank
+      </p>
+    </li>
+  </ul>
+</div>
+`;
